@@ -3,13 +3,15 @@
   "name": "Udemy Dark Theme",
   "version": "1.0",
   "description": "A simple dark theme for Udemy.",
-  "background": {
-    "service_worker": "background.js"
-  },
   "content_scripts": [
     {
       "matches": ["*://www.udemy.com/*"],
       "css": ["dark-theme.css"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }
