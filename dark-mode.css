@@ -1,0 +1,100 @@
+:root {
+  --dark-color: #171717 !important;
+  --mid-dark-color: #1f1f1f !important;
+  --light-dark-color: #595959 !important;
+  --white: #fff !important;
+  --black: #000 !important;
+}
+
+/* GLOBAL */
+* {
+  color: var(--white) !important;
+  border-color: hsl(0, 0%, 20%) !important;
+}
+
+/* COLOR WHITE */
+.ud-search-form-autocomplete.desktop-header-module--search-bar--49122.ud-form-group,
+input,
+select,
+.ud-form-group,
+.ProseMirror.rt-scaffolding,
+select#form-group--12,
+option {
+  color: var(--white);
+}
+
+/* DARK BACKGROUND */
+body,
+div#tabs--1-content-0,
+.sidebar--sidebar--paNd5 .sidebar--sidebar-header--Ohywj,
+.ud-btn.ud-btn-large.ud-btn-link.ud-heading-md.ud-accordion-panel-toggler.accordion-panel-module--panel-toggler--WUiNu.accordion-panel-module--outer-panel-toggler--Pxwxc,
+div#tabs--1-content-0,
+.ud-search-form-autocomplete.desktop-header-module--search-bar--49122.ud-form-group,
+input,
+.ud-form-group,
+.rt-menu-bar,
+.ProseMirror.rt-scaffolding,
+select#form-group--12,
+option,
+ud-main-content .btn,
+ud-main-content btn,
+ud-main-content button,
+.button,
+ud-main-content .ud-btn,
+.course-details-quick-view-box-module--popover-wrapper--vDMZL > div > div,
+.wide-hero-banner-slide-module--content-box--wPFeP,
+.ud-btn-icon-small {
+  background-color: var(--dark-color) !important;
+}
+
+/* MID-DARK BACKGROUND */
+div#ct-sidebar-scroll-container,
+.curriculum-item-link--curriculum-item--OVP5S > .item-link:hover,
+.curriculum-item-link--curriculum-item--OVP5S.curriculum-item-link--is-current--2mKk4
+  > .item-link,
+ul.ud-unstyled-list.link-bar-module--categories--iqRvl {
+  background-color: var(--mid-dark-color);
+}
+
+/* LIGHT DARK BACKGROUND */
+.item-link.item-link--common--j8WLy.ud-custom-focus-visible:hover,
+.curriculum-item-link--curriculum-item--OVP5S.curriculum-item-link--is-current--2mKk4
+  > .item-link,
+.js-browse-nav-level-one.browse-nav-module--nav--0Iif6,
+.js-browse-nav-level-one.browse-nav-module--nav--0Iif6 ul,
+div#header-browse-nav-level-two,
+div#header-browse-nav-level-two ul,
+div#header-browse-nav-level-three,
+.panel-menu-module--panel--FrCW7,
+div#u25-popper-content--15,
+.popper-module--popper-content--XE9z5,
+.media-object-module--media-object--ilk-Z,
+.panel-menu-module--item--XoZxL,
+.panel-menu-module--section-heading--rus-R.panel-menu-module--gap-bottom---DDBJ,
+.desktop-header-module--menu--oIYSV,
+.panel-menu-module--footer--mjYSO,
+a.ud-heading-md.lecture-progress-card--lecture-title--37-au.lecture-progress-card--lecture-title-large---oEq7.lecture-progress-card--lecture-title-with-more-button--aY5Ce.ud-focus-visible-target.media-object-module--media-object-title--60qy5,
+a.ud-heading-md.popular-topics-unit-module--topic-tag--3MOXg:hover,
+button:hover,
+.btn:hover,
+.ud-btn:hover {
+  background-color: var(--light-dark-color) !important;
+}
+
+/* BLACK BACKGROUND */
+.footer-section.teach-on-udemy-banner-module--banner--fjaNL,
+.footer-section.ufb-notice-module--notice-row--LgC7t,
+.footer-section.footer-section-main,
+.ud-header.ud-text-sm.desktop-header-module--header--a5wri.desktop-header-module--flex-middle--k0Teb,
+.ud-header.ud-text-sm.desktop-header-module--header--a5wri.desktop-header-module--flex-middle--k0Teb,
+.app--row--E-WFM.app--header--QuLOL,
+.edit-profile-form--social-url-prefix--xfcxX.text-input-with-addons--addon--wB52-.edit-profile-form--social-url-prefix--xfcxX,
+.alert-banner-module--alert-banner--38ZcQ.alert-banner-module--alert-banner-information--p8hvz {
+  background-color: var(--black) !important;
+}
+
+/* INVERTER FILTER EFFECT */
+a.desktop-header-module--flex-middle--k0Teb.desktop-header-module--logo--AwnFF
+  img {
+  filter: invert(1) grayscale(1);
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Udemy Dark Theme",
+  "version": "1.0",
+  "description": "Applies a dark theme to Udemy.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.udemy.com/*"],
+      "css": ["dark-mode.css"]
+    }
+  ]
+}
