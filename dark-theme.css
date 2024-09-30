@@ -44,7 +44,14 @@ ud-main-content .ud-btn,
 .course-details-quick-view-box-module--popover-wrapper--vDMZL > div > div,
 .wide-hero-banner-slide-module--content-box--wPFeP,
 .ud-btn-icon-small,
-.playback-rate--trigger-text--l7hqr {
+.playback-rate--trigger-text--l7hqr,
+.transcript--transcript-panel--JLceZ,
+select#form-group--442,
+select#form-group--444,
+ul.ud-unstyled-list.ud-block-list,
+select,
+select#form-group--587,
+select#form-group--585, input[type="text"] {
   background-color: var(--dark-color) !important;
 }
 
@@ -79,8 +86,13 @@ a.ud-heading-md.popular-topics-unit-module--topic-tag--3MOXg:hover,
 button:hover,
 .btn:hover,
 .ud-btn:hover,
-.playback-rate--trigger-text--l7hqr:hover {
+.playback-rate--trigger-text--l7hqr:hover,
+.transcript--highlight-cue--ugVsE {
   background-color: var(--light-dark-color) !important;
+}
+.transcript--highlight-cue--ugVsE {
+  box-shadow: 0.8rem 0 0 var(--light-dark-color) !important;
+  box-shadow: 0.8rem 0 0 var(--light-dark-color) !important;
 }
 
 /* BLACK BACKGROUND */
@@ -99,4 +111,8 @@ button:hover,
 a.desktop-header-module--flex-middle--k0Teb.desktop-header-module--logo--AwnFF
   img {
   filter: invert(1) grayscale(1);
+}
+
+.question-list-question--question-wrapper--sdKgP:hover {
+  background-color: inherit !important;
 }
