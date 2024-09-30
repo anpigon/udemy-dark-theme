@@ -43,7 +43,8 @@ ud-main-content button,
 ud-main-content .ud-btn,
 .course-details-quick-view-box-module--popover-wrapper--vDMZL > div > div,
 .wide-hero-banner-slide-module--content-box--wPFeP,
-.ud-btn-icon-small {
+.ud-btn-icon-small,
+.playback-rate--trigger-text--l7hqr {
   background-color: var(--dark-color) !important;
 }
 
@@ -77,7 +78,8 @@ a.ud-heading-md.lecture-progress-card--lecture-title--37-au.lecture-progress-car
 a.ud-heading-md.popular-topics-unit-module--topic-tag--3MOXg:hover,
 button:hover,
 .btn:hover,
-.ud-btn:hover {
+.ud-btn:hover,
+.playback-rate--trigger-text--l7hqr:hover {
   background-color: var(--light-dark-color) !important;
 }
 
