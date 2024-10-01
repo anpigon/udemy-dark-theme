@@ -4,6 +4,7 @@
   --light-dark-color: #595959 !important;
   --white: #fff !important;
   --black: #000 !important;
+  --purple: #a435f0 !important;
 }
 
 /* GLOBAL */
@@ -51,7 +52,8 @@ select#form-group--444,
 ul.ud-unstyled-list.ud-block-list,
 select,
 select#form-group--587,
-select#form-group--585, input[type="text"] {
+select#form-group--585,
+input[type="text"] {
   background-color: var(--dark-color) !important;
 }
 
@@ -82,17 +84,9 @@ div#u25-popper-content--15,
 .desktop-header-module--menu--oIYSV,
 .panel-menu-module--footer--mjYSO,
 a.ud-heading-md.lecture-progress-card--lecture-title--37-au.lecture-progress-card--lecture-title-large---oEq7.lecture-progress-card--lecture-title-with-more-button--aY5Ce.ud-focus-visible-target.media-object-module--media-object-title--60qy5,
-a.ud-heading-md.popular-topics-unit-module--topic-tag--3MOXg:hover,
-button:hover,
-.btn:hover,
-.ud-btn:hover,
-.playback-rate--trigger-text--l7hqr:hover,
-.transcript--highlight-cue--ugVsE {
+.transcript--highlight-cue--ugVsE,
+label.curriculum-item-link--progress-toggle--f0M8W.ud-toggle-input-container.ud-text-sm {
   background-color: var(--light-dark-color) !important;
-}
-.transcript--highlight-cue--ugVsE {
-  box-shadow: 0.8rem 0 0 var(--light-dark-color) !important;
-  box-shadow: 0.8rem 0 0 var(--light-dark-color) !important;
 }
 
 /* BLACK BACKGROUND */
@@ -107,12 +101,28 @@ button:hover,
   background-color: var(--black) !important;
 }
 
+/* PURPLE BACKGROUND */
+.ud-real-toggle-input:checked ~ .ud-fake-toggle-checkbox {
+  background-color: var(--purple) !important;
+}
+
 /* INVERTER FILTER EFFECT */
 a.desktop-header-module--flex-middle--k0Teb.desktop-header-module--logo--AwnFF
   img {
   filter: invert(1) grayscale(1);
 }
 
+/* OTHERS ADJUSTS */
+
 .question-list-question--question-wrapper--sdKgP:hover {
   background-color: inherit !important;
+}
+
+span.truncate-with-tooltip--ellipsis--YJw4N:hover {
+  background-color: inherit !important;
+}
+
+.transcript--highlight-cue--ugVsE {
+  box-shadow: 0.8rem 0 0 var(--light-dark-color) !important;
+  box-shadow: 0.8rem 0 0 var(--light-dark-color) !important;
 }
