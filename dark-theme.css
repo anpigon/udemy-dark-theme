@@ -53,7 +53,9 @@ ul.ud-unstyled-list.ud-block-list,
 select,
 select#form-group--587,
 select#form-group--585,
-input[type="text"] {
+input[type="text"],
+.text-viewer--scroll-container--nJpSq,
+.layout--scroll-container--px-Ll {
   background-color: var(--dark-color) !important;
 }
 
@@ -62,8 +64,15 @@ div#ct-sidebar-scroll-container,
 .curriculum-item-link--curriculum-item--OVP5S > .item-link:hover,
 .curriculum-item-link--curriculum-item--OVP5S.curriculum-item-link--is-current--2mKk4
   > .item-link,
-ul.ud-unstyled-list.link-bar-module--categories--iqRvl {
-  background-color: var(--mid-dark-color);
+ul.ud-unstyled-list.link-bar-module--categories--iqRvl,
+footer.ct-dashboard-separator.curriculum-item-footer--flex-align-center--DP16N.curriculum-item-footer--footer--I6XWH,
+.popover-module--popover--HrSFz.popover-module--popover-bottom-arrow--QQttx.popover-module--popover-padding--3j0NT,
+.results-page--results-page--k2XQA.quiz-page-layout--scroll-container--kZizn,
+.quiz-page-content.quiz-page-layout--content--CSpHA,
+.quiz-page-layout--scroll-container--kZizn,
+.layout--progress-bar--631bd,
+.layout--end-alert--E6j9D {
+  background-color: var(--mid-dark-color) !important;
 }
 
 /* LIGHT DARK BACKGROUND */
