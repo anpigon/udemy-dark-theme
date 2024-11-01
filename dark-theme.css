@@ -55,7 +55,9 @@ select#form-group--587,
 select#form-group--585,
 input[type="text"],
 .text-viewer--scroll-container--nJpSq,
-.layout--scroll-container--px-Ll {
+.layout--scroll-container--px-Ll,
+.fast-feedback--container--4QDZO,
+.ud-modal.modal-module--dialog--RY4TX.modal-module--default-size--NPjkt {
   background-color: var(--dark-color) !important;
 }
 
@@ -71,7 +73,8 @@ footer.ct-dashboard-separator.curriculum-item-footer--flex-align-center--DP16N.c
 .quiz-page-content.quiz-page-layout--content--CSpHA,
 .quiz-page-layout--scroll-container--kZizn,
 .layout--progress-bar--631bd,
-.layout--end-alert--E6j9D {
+.layout--end-alert--E6j9D,
+.sidebar-container--buy-for-team--Si42W {
   background-color: var(--mid-dark-color) !important;
 }
 
@@ -94,7 +97,10 @@ div#u25-popper-content--15,
 .panel-menu-module--footer--mjYSO,
 a.ud-heading-md.lecture-progress-card--lecture-title--37-au.lecture-progress-card--lecture-title-large---oEq7.lecture-progress-card--lecture-title-with-more-button--aY5Ce.ud-focus-visible-target.media-object-module--media-object-title--60qy5,
 .transcript--highlight-cue--ugVsE,
-label.curriculum-item-link--progress-toggle--f0M8W.ud-toggle-input-container.ud-text-sm {
+label.curriculum-item-link--progress-toggle--f0M8W.ud-toggle-input-container.ud-text-sm,
+mark,
+strong,
+code {
   background-color: var(--light-dark-color) !important;
 }
 
@@ -106,7 +112,11 @@ label.curriculum-item-link--progress-toggle--f0M8W.ud-toggle-input-container.ud-
 .ud-header.ud-text-sm.desktop-header-module--header--a5wri.desktop-header-module--flex-middle--k0Teb,
 .app--row--E-WFM.app--header--QuLOL,
 .edit-profile-form--social-url-prefix--xfcxX.text-input-with-addons--addon--wB52-.edit-profile-form--social-url-prefix--xfcxX,
-.alert-banner-module--alert-banner--38ZcQ.alert-banner-module--alert-banner-information--p8hvz {
+.alert-banner-module--alert-banner--38ZcQ.alert-banner-module--alert-banner-information--p8hvz,
+.sidebar-container--buy-for-team--Si42W,
+.sidebar-container--purchase-section--XWCM-,
+.sidebar-container--purchase-section--XWCM-
+  .ud-block-list-item.ud-block-list-item-small.ud-block-list-item-tight.ud-block-list-item-neutral.ud-text-sm {
   background-color: var(--black) !important;
 }
 
