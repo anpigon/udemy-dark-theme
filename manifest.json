@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
   "name": "Udemy Dark Theme",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A simple dark theme for Udemy.",
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["https://www.udemy.com/*"],
+      "matches": ["https://*.udemy.com/*"],
       "css": ["dark-theme.css"]
     }
   ],
@@ -16,5 +16,8 @@
     "16": "icon.png",
     "48": "icon.png",
     "128": "icon.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
   }
 }
