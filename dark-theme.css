@@ -1,147 +1,129 @@
 :root {
-  --dark-color: #171717 !important;
-  --mid-dark-color: #1f1f1f !important;
-  --light-dark-color: #595959 !important;
-  --white: #fff !important;
-  --black: #000 !important;
-  --purple: #a435f0 !important;
+  --black-color: #000;
+  --purple-color: #a435f0;
+  --black-color: #000;
+  --grey-color: #080808;
+  --hover-color: #222222;
+  --border-color: #181818;
 }
 
-/* GLOBAL */
-* {
-  color: var(--white) !important;
-  border-color: hsl(0, 0%, 20%) !important;
-}
-
-/* COLOR WHITE */
-.ud-search-form-autocomplete.desktop-header-module--search-bar--49122.ud-form-group,
+/* BLACK */
+header,
+div.footer-section,
+.link-bar-module--categories--iqRvl,
 input,
+textarea,
+form,
+[data-testid="popover-render-content"] > div > div,
 select,
-.ud-form-group,
-.ProseMirror.rt-scaffolding,
-select#form-group--12,
-option {
-  color: var(--white);
-}
-
-/* DARK BACKGROUND */
-body,
-div#tabs--1-content-0,
-.sidebar--sidebar--paNd5 .sidebar--sidebar-header--Ohywj,
-.ud-btn.ud-btn-large.ud-btn-link.ud-heading-md.ud-accordion-panel-toggler.accordion-panel-module--panel-toggler--WUiNu.accordion-panel-module--outer-panel-toggler--Pxwxc,
-div#tabs--1-content-0,
-.ud-search-form-autocomplete.desktop-header-module--search-bar--49122.ud-form-group,
-input,
-.ud-form-group,
-.rt-menu-bar,
-.ProseMirror.rt-scaffolding,
-select#form-group--12,
 option,
-ud-main-content .btn,
-ud-main-content btn,
-ud-main-content button,
-.button,
-ud-main-content .ud-btn,
-.course-details-quick-view-box-module--popover-wrapper--vDMZL > div > div,
-.wide-hero-banner-slide-module--content-box--wPFeP,
-.ud-btn-icon-small,
-.playback-rate--trigger-text--l7hqr,
-.transcript--transcript-panel--JLceZ,
-select#form-group--442,
-select#form-group--444,
-ul.ud-unstyled-list.ud-block-list,
-select,
-select#form-group--587,
-select#form-group--585,
-input[type="text"],
-.text-viewer--scroll-container--nJpSq,
-.layout--scroll-container--px-Ll,
-.fast-feedback--container--4QDZO,
-.ud-modal.modal-module--dialog--RY4TX.modal-module--default-size--NPjkt {
-  background-color: var(--dark-color) !important;
-}
-
-/* MID-DARK BACKGROUND */
-div#ct-sidebar-scroll-container,
-.curriculum-item-link--curriculum-item--OVP5S > .item-link:hover,
-.curriculum-item-link--curriculum-item--OVP5S.curriculum-item-link--is-current--2mKk4
-  > .item-link,
-ul.ud-unstyled-list.link-bar-module--categories--iqRvl,
-footer.ct-dashboard-separator.curriculum-item-footer--flex-align-center--DP16N.curriculum-item-footer--footer--I6XWH,
-.popover-module--popover--HrSFz.popover-module--popover-bottom-arrow--QQttx.popover-module--popover-padding--3j0NT,
-.results-page--results-page--k2XQA.quiz-page-layout--scroll-container--kZizn,
-.quiz-page-content.quiz-page-layout--content--CSpHA,
-.quiz-page-layout--scroll-container--kZizn,
-.layout--progress-bar--631bd,
-.layout--end-alert--E6j9D,
-.sidebar-container--buy-for-team--Si42W {
-  background-color: var(--mid-dark-color) !important;
-}
-
-/* LIGHT DARK BACKGROUND */
-.item-link.item-link--common--j8WLy.ud-custom-focus-visible:hover,
-.curriculum-item-link--curriculum-item--OVP5S.curriculum-item-link--is-current--2mKk4
-  > .item-link,
-.js-browse-nav-level-one.browse-nav-module--nav--0Iif6,
-.js-browse-nav-level-one.browse-nav-module--nav--0Iif6 ul,
-div#header-browse-nav-level-two,
-div#header-browse-nav-level-two ul,
-div#header-browse-nav-level-three,
-.panel-menu-module--panel--FrCW7,
-div#u25-popper-content--15,
-.popper-module--popper-content--XE9z5,
-.media-object-module--media-object--ilk-Z,
-.panel-menu-module--item--XoZxL,
-.panel-menu-module--section-heading--rus-R.panel-menu-module--gap-bottom---DDBJ,
-.desktop-header-module--menu--oIYSV,
-.panel-menu-module--footer--mjYSO,
-a.ud-heading-md.lecture-progress-card--lecture-title--37-au.lecture-progress-card--lecture-title-large---oEq7.lecture-progress-card--lecture-title-with-more-button--aY5Ce.ud-focus-visible-target.media-object-module--media-object-title--60qy5,
-.transcript--highlight-cue--ugVsE,
-label.curriculum-item-link--progress-toggle--f0M8W.ud-toggle-input-container.ud-text-sm,
-mark,
-strong,
-code {
-  background-color: var(--light-dark-color) !important;
-}
-
-/* BLACK BACKGROUND */
-.footer-section.teach-on-udemy-banner-module--banner--fjaNL,
-.footer-section.ufb-notice-module--notice-row--LgC7t,
-.footer-section.footer-section-main,
-.ud-header.ud-text-sm.desktop-header-module--header--a5wri.desktop-header-module--flex-middle--k0Teb,
-.ud-header.ud-text-sm.desktop-header-module--header--a5wri.desktop-header-module--flex-middle--k0Teb,
-.app--row--E-WFM.app--header--QuLOL,
+.alert-banner_alert-banner__lcC4_,
+[toggle-id="filter-button"],
+[data-purpose="learning-reminder-banner"],
+.alert-banner-module--alert-banner--38ZcQ,
+.my-courses__app,
+.top-container.dark-background,
+.dark-background,
+[data-client-side-render-only="CSR: purchase_section"],
+[data-client-side-render-only="CSR: ub_advertisement"],
+.ud-accordion-panel-toggler,
 .edit-profile-form--social-url-prefix--xfcxX.text-input-with-addons--addon--wB52-.edit-profile-form--social-url-prefix--xfcxX,
-.alert-banner-module--alert-banner--38ZcQ.alert-banner-module--alert-banner-information--p8hvz,
-.sidebar-container--buy-for-team--Si42W,
-.sidebar-container--purchase-section--XWCM-,
-.sidebar-container--purchase-section--XWCM-
-  .ud-block-list-item.ud-block-list-item-small.ud-block-list-item-tight.ud-block-list-item-neutral.ud-text-sm {
-  background-color: var(--black) !important;
+span.file-uploader-module--fake-input--YBzeo,
+label.app--payment-setting--checkbox--dkNA2.ud-toggle-input-container.ud-text-sm,
+.lecture-bookmark-v2--content-container--hoogx,
+.app--row-content--wQEj-,
+.sidebar--sidebar-header--Ohywj,
+.layout--progress-bar--631bd,
+.ud-btn-icon-small,
+a.ud-btn.ud-btn-medium.ud-btn-ghost.ud-heading-sm.link-bar-module--nav-button--pzzmv,
+ul.ud-unstyled-list.link-bar-module--subcategories--S53nt,
+.wide-hero-banner-slide-module--content-box--wPFeP,
+.modal-language-selector-module--modal--58pzd.ud-modal.modal-module--dialog--RY4TX.modal-module--default-size--NPjkt,
+.main-route--left--XxVOp,
+.thread-list--thread-list-container--Gc-a9 > div,
+.message-list--messages--Tr3-K,
+span.playback-rate--trigger-text--l7hqr,
+.ud-modal.modal-module--dialog--RY4TX.modal-module--default-size--NPjkt,
+.transcript--autoscroll-wrapper--3ac1w {
+  background: var(--black-color) !important;
 }
 
-/* PURPLE BACKGROUND */
-.ud-real-toggle-input:checked ~ .ud-fake-toggle-checkbox {
-  background-color: var(--purple) !important;
+/* GREY */
+main,
+[data-testid="browse-nav-list"],
+.ud-header-menu > div,
+.panel-menu-module--footer--mjYSO,
+[role="tabpanel"],
+.ud-container.user-manage-classic.ud-app-loader.ud-app-loaded,
+.ud-main-content,
+.ud-main-content form,
+.popover-module--popover--HrSFz.popover-module--popover-bottom--1ghkR,
+.ProseMirror.rt-scaffolding,
+.rt-menu-bar,
+main form,
+.lecture-bookmark-v2--content-container--hoogx,
+.text-viewer--scroll-container--nJpSq,
+footer,
+.app--row-content--wQEj-,
+li.curriculum-item-link--curriculum-item--OVP5S,
+.layout--container--n8hk-,
+.layout--end-alert--E6j9D,
+[data-purpose="context-menu-options"],
+.popover-module--popover-bottom-arrow--QQttx,
+.dropdown-module--menu---dCM1.dropdown-module--dropdown-menu--7Qc2I,
+.other-options-button-module--other-options-button--ZXQ1m.other-options-button-module--other-options-bottom-border--JYBoJ,
+.other-options-button-module--other-options-button--ZXQ1m,
+.ud-container.teach-page__container,
+.teach-page__pale-container.from-instructors--container--aloM4,
+.fs-exclude.message-list--message--9o4h7,
+.reply-form--form-container--4oFyn,
+.video-bookmark--video-add-bookmark-container--Sx8Ca,
+.transcript--transcript-panel--JLceZ {
+  background-color: var(--grey-color) !important;
 }
 
-/* INVERTER FILTER EFFECT */
-a.desktop-header-module--flex-middle--k0Teb.desktop-header-module--logo--AwnFF
-  img {
-  filter: invert(1) grayscale(1);
+/* OTHERS */
+
+* {
+  color: white !important;
+  border-color: var(--border-color) !important;
 }
 
-/* OTHERS ADJUSTS */
+a[data-purpose="submit-button"] {
+  border-color: var(--border-color);
+}
+
+header > a > img {
+  filter: grayscale(1) invert(1) !important;
+}
+
+main .ud-heading-xs {
+  color: var(--black-color);
+}
+
+[data-purpose="buy-this-course-button"],
+[data-purpose="buy-this-course-button"] span.ud-btn-label {
+  background-color: var(--black-color) !important;
+  border: solid 1px var(--purple-color);
+}
+
+.header--header--g2QGk img {
+  filter: none !important;
+}
 
 .question-list-question--question-wrapper--sdKgP:hover {
   background-color: inherit !important;
 }
 
-span.truncate-with-tooltip--ellipsis--YJw4N:hover {
-  background-color: inherit !important;
+.curriculum-item-link--curriculum-item--OVP5S > .item-link:hover,
+.curriculum-item-link--curriculum-item--OVP5S.curriculum-item-link--is-current--2mKk4
+  > .item-link,
+.ribbon-module--ribbon--vVul-.ud-heading-xs,
+.thread-list--thread--iQxUo.thread-list--active--k-pEa,
+.thread-list--thread--iQxUo:hover {
+  background-color: var(--hover-color) !important;
 }
 
-.transcript--highlight-cue--ugVsE {
-  box-shadow: 0.8rem 0 0 var(--light-dark-color) !important;
-  box-shadow: 0.8rem 0 0 var(--light-dark-color) !important;
+.ud-real-toggle-input:checked ~ .ud-fake-toggle-checkbox {
+  background-color: var(--purple-color) !important;
 }

@@ -9,7 +9,13 @@
   "content_scripts": [
     {
       "matches": ["https://*.udemy.com/*"],
-      "css": ["dark-theme.css"]
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dark-theme.css"],
+      "matches": ["https://*.udemy.com/*"]
     }
   ],
   "icons": {
