@@ -1,10 +1,9 @@
 :root {
-  --black-color: #000;
+  --black-color: #000000;
+  --grey-color: #0e0e0e;
   --purple-color: #a435f0;
-  --black-color: #000;
-  --grey-color: #080808;
   --hover-color: #222222;
-  --border-color: #181818;
+  --border-color: #303030;
 }
 
 /* BLACK */
