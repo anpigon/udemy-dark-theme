@@ -1,0 +1,6 @@
+body {
+  width: 300px;
+  box-sizing: border-box;
+  background-color: black!important;
+  padding: 1.5rem 1.5rem;
+}

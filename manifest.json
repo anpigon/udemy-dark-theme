@@ -1,10 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Udemy Dark Theme",
-  "version": "1.1.5",
+  "version": "1.2",
   "description": "A simple dark theme for Udemy.",
+  "permissions": ["activeTab", "scripting", "storage"],
   "background": {
     "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click to open popup.",
+    "default_popup": "popup.html"
   },
   "content_scripts": [
     {
@@ -12,18 +17,9 @@
       "js": ["content.js"]
     }
   ],
-  "web_accessible_resources": [
-    {
-      "resources": ["dark-theme.css"],
-      "matches": ["https://*.udemy.com/*"]
-    }
-  ],
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
     "128": "icon.png"
-  },
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'"
   }
 }
