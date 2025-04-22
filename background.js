@@ -4,7 +4,7 @@ chrome.runtime.onInstalled.addListener(() => {
 
 chrome.runtime.onSuspend.addListener(function () {
   window.open(
-    "https://docs.google.com/forms/d/e/1FAIpQLSchjZOIxmkVfDKEQOWTOyT_CS-e4DxU2qAltPAPhvhDuK5k1A/viewform?usp=dialog"
+    "https://docs.google.com/forms/d/e/1FAIpQLSchjZOIxmkVfDKEQOWTOyT_CS-e4DxU2qAltPAPhvhDuK5k1A/viewform?usp=sharing"
   );
 });
 
