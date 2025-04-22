@@ -23,7 +23,7 @@ chrome.storage.local.get("extensionIsActive", (data) => {
         .modal-language-selector-module--modal--58pzd.ud-modal.modal-module--dialog--RY4TX.modal-module--default-size--NPjkt,
         .main-route--left--XxVOp, .thread-list--thread-list-container--Gc-a9 > div, .message-list--messages--Tr3-K,
         span.playback-rate--trigger-text--l7hqr, .ud-modal.modal-module--dialog--RY4TX.modal-module--default-size--NPjkt,
-        .transcript--autoscroll-wrapper--3ac1w, form.ud-search-form-autocomplete-input-group.ud-search-form-autocomplete-input-group-reversed ul {
+        .transcript--autoscroll-wrapper--3ac1w, form.ud-search-form-autocomplete-input-group.ud-search-form-autocomplete-input-group-reversed ul, .ud-tabs-nav-buttons.tabs-module--tabs-nav-buttons--R48bp {
           background: var(--black-color) !important;
         }
 
@@ -81,7 +81,10 @@ chrome.storage.local.get("extensionIsActive", (data) => {
 
         .ud-real-toggle-input:checked ~ .ud-fake-toggle-checkbox {
           background-color: var(--purple-color) !important;
-      }
+        }
+          .sidebar--close-btn-container--rq9SW {
+          background: linear-gradient(to left, #000000 75%, rgba(255, 255, 255, 0))!important;
+        }
     `;
 
     const styleElement = document.createElement("style");
